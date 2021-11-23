@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PIM_Hotelaria_mobile</string>
+
+    <string name="Quartos">Quartos</string>
+    <string-array name="quarto">
+        <item>Solteiro - 1 Cama de Solteiro</item>
+        <item>Solteiro - 2 Camas de Solteiro</item>
+        <item>Solteiro - 3 Cama de Solteiro</item>
+        <item>Casal - 1 Cama de Casal</item>
+        <item>Casal - 2 Camas de Casal</item>
+        <item>Casal e Filhos - 1 Cama de Casal e 1 Cama de Solteiro</item>
+        <item>Casal e Filhos - 1 Cama de Casal e 2 Camas de Solteiro</item>
+    </string-array>
+</resources>
