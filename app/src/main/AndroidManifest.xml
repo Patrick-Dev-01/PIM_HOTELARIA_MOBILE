@@ -22,7 +22,7 @@
             android:name=".HomeActivity"
             >
         </activity>
-        
+
         <activity
             android:name=".TicketActivity"
             >
@@ -30,6 +30,11 @@
 
         <activity
             android:name=".ReserActivity"
+            >
+        </activity>
+
+        <activity
+            android:name=".CancelarActivity"
             >
         </activity>
 

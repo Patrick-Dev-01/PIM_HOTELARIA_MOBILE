@@ -37,5 +37,13 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        reserve_button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent  = new Intent(HomeActivity.this, ReserActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

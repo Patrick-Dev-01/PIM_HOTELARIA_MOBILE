@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button quartos_button, button_reserva;
+    private Button quartos_button, button_reserva, button_cancelamento;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         quartos_button = findViewById(R.id.quartos_button);
         button_reserva = findViewById(R.id.button_reservar);
+        button_cancelamento = findViewById(R.id.button_cancelamento);
 
         quartos_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent(MainActivity.this, ReserActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button_cancelamento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent  = new Intent(MainActivity.this, CancelarActivity.class);
                 startActivity(intent);
             }
         });
