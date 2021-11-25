@@ -11,4 +11,11 @@
         <item>Casal e Filhos - 1 Cama de Casal e 1 Cama de Solteiro</item>
         <item>Casal e Filhos - 1 Cama de Casal e 2 Camas de Solteiro</item>
     </string-array>
+
+    <string name="Pagamentos">Quartos</string>
+    <string-array name="pagamento">
+        <item>Dinheiro</item>
+        <item>Cartão</item>
+        <item>PIX</item>
+    </string-array>
 </resources>
